@@ -15,3 +15,8 @@ git branch -M main
 
 ###5 Đẩy code lên GitHub
 git push -u origin main
+
+##6 Mỗi lần cập nhật chỉ cần
+git add .
+git commit -m "Update nội dung"
+git push
