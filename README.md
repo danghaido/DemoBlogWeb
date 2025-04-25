@@ -1,17 +1,17 @@
 # Hướng dẫn đẩy dự án lên GitHub với nhánh `main`
 
-## 1. Khởi tạo Git trong dự án
+###1 Khởi tạo Git trong dự án
 ```bash
 git init
 
-## 2 Thêm tất cả file vào staging
+###2 Thêm tất cả file vào staging
 git add .
 
-## 3 Commit
+###3 Commit
 git commit -m "first commit"
 
-## 4 Đổi tên nhánh thành main
+###4 Đổi tên nhánh thành main
 git branch -M main
 
-## 5 Đẩy code lên GitHub
+###5 Đẩy code lên GitHub
 git push -u origin main
